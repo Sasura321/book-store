@@ -1,0 +1,9 @@
+CREATE TABLE `commentinfo` (
+  `CID` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `CNID` int(11) NOT NULL,
+  `CCONTENT` varchar(4000) DEFAULT NULL,
+  `CDATE` date DEFAULT NULL,
+  `CIP` varchar(15) DEFAULT NULL,
+  `CAUTHOR` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`CID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
